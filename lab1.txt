@@ -1,0 +1,50 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a="kishor"
+>>> len(a)
+6
+>>> lower(a)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    lower(a)
+NameError: name 'lower' is not defined
+>>> a.lower()
+'kishor'
+>>> a.upper()
+'KISHOR'
+>>> a.capitalize()
+'Kishor'
+>>> a.title()
+'Kishor'
+>>> b="kishorkrr"
+>>> L=[12,-17,"kishor",98]
+>>> L.append("abc")
+>>> L
+[12, -17, 'kishor', 98, 'abc']
+>>> L.extend("kishor")
+>>> L
+[12, -17, 'kishor', 98, 'abc', 'k', 'i', 's', 'h', 'o', 'r']
+>>> L.index(98)
+3
+>>> L.insert(4,a)
+>>> L
+[12, -17, 'kishor', 98, 'kishor', 'abc', 'k', 'i', 's', 'h', 'o', 'r']
+>>> L.remove("abc")
+>>> L
+[12, -17, 'kishor', 98, 'kishor', 'k', 'i', 's', 'h', 'o', 'r']
+>>> l.pop(5)
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    l.pop(5)
+NameError: name 'l' is not defined
+>>> L.pop(5)
+'k'
+>>> L
+[12, -17, 'kishor', 98, 'kishor', 'i', 's', 'h', 'o', 'r']
+>>> L.count(i)
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    L.count(i)
+NameError: name 'i' is not defined
+>>> 
